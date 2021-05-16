@@ -11,3 +11,8 @@ PUSHER_APP_ID=
 PUSHER_APP_KEY=
 PUSHER_APP_SECRET=
 ```
+How to run:
+
+```bash
+docker run --env-file .env -p 9090:80 --name bfacp_docker bfacp_docker:latest
+```
